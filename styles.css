@@ -1,0 +1,20 @@
+img {
+  border-radius: 2%;
+}
+
+i {
+  margin-right: 8px;
+}
+
+nav {
+  opacity: 80%;
+}
+.ios {
+  background-color: #007aff;
+  border-color: #007aff;
+}
+.android {
+  background-color: #3ddc84;
+  border-color: #3ddc84;
+  color: white;
+}
