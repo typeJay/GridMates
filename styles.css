@@ -1,3 +1,9 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Audiowide", sans-serif;
+}
+
 img {
   border-radius: 2%;
 }
@@ -9,12 +15,16 @@ i {
 nav {
   opacity: 80%;
 }
-.ios {
-  background-color: #007aff;
-  border-color: #007aff;
+
+.btns {
+  margin: 10px 0 10px 0;
 }
+.apple {
+  width: 25%;
+  height: auto;
+}
+
 .android {
-  background-color: #3ddc84;
-  border-color: #3ddc84;
-  color: white;
+  width: 31%;
+  height: auto;
 }
