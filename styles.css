@@ -2,18 +2,25 @@ body {
   background-color: #121212;
   color: #fff;
   font-family: "Audiowide", sans-serif;
+  padding-bottom: 400px;
 }
 
 img {
   border-radius: 2%;
 }
 
-i {
-  margin-right: 8px;
-}
-
 nav {
   opacity: 80%;
+}
+
+.hero {
+  padding-left: 300px;
+}
+.hero-text {
+  font-size: 2.3rem;
+}
+.hero-subtext {
+  font-size: 1.4rem;
 }
 
 .btns {
@@ -27,4 +34,18 @@ nav {
 .android {
   width: 31%;
   height: auto;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(285, 49%, 46%);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(285, 99%, 67%);
 }
