@@ -13,9 +13,14 @@ nav {
   opacity: 80%;
 }
 
-.hero {
-  padding-left: 300px;
+/* .hero {
+  padding: 0 40px 0 40px;
+} */
+
+.fas{
+  padding-bottom: 20px;
 }
+
 .hero-text {
   font-size: 2.3rem;
 }
@@ -36,6 +41,19 @@ nav {
   height: auto;
 }
 
+h2{
+  color: hsl(285, 99%, 67%);
+}
+
+.feature{
+  border: solid;
+  /* border-radius: 5%; */
+  border-color: hsl(285, 99%, 67%);
+  border-left: none;
+  border-right: none;
+}
+
+
 /* Scrollbar */
 /* width */
 ::-webkit-scrollbar {
@@ -49,3 +67,4 @@ nav {
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(285, 99%, 67%);
 }
+
